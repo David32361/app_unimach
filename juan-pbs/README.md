@@ -9,7 +9,7 @@ credenciales. Si no abriste un issue, deja `-` en esa columna.
 
 | Fecha | Dispositivo / Android | Hallazgo (pasos, esperado y observado) | Issue (opcional) | Estado |
 | ----- | --------------------- | -------------------------------------- | ---------------- | ------ |
-|       |                       |                                        |                  |        |
+| 2026-10-21 | Samsung SM-S948B / Android 17 | Abrir Perfil y leer la edad. Esperado: usar "años" en español. Observado: aparece "anos" sin la letra ñ. | - | Reportado |
 |       |                       |                                        |                  |        |
 |       |                       |                                        |                  |        |
 |       |                       |                                        |                  |        |
