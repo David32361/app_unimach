@@ -3,7 +3,7 @@
 ## Periodo y participantes
 
 - **Fecha limite para registrar hallazgos:** 25 de octubre de 2026 a las 23:59, hora de Ciudad de Mexico.
-- **Testers:** [Juan Pablo (`juan-pbs`)](juan-pbs/README.md), [Gael](Gael/README.md) y [Jhoana (`Jhoa-ml`)](Jhoa-ml/README.md).
+- **Participantes:** [Juan Pablo (`juan-pbs`)](juan-pbs/README.md), [Gael (`GaelSilis`)](GaelSilis/README.md), [Jhoana (`Jhoa-ml`)](Jhoa-ml/README.md) y [docente (`DSRG80`)](DSRG80/README.md).
 - **Version a revisar:** UniMatch 0.1.0-beta.2, build 5.
 - **Descarga del APK:** abre la [Release 0.1.0-beta.2](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.2) y descarga `UniMatch-0.1.0-beta.2.apk` en **Assets**. El mismo archivo tambien esta en la raiz de este repositorio.
 
@@ -16,11 +16,12 @@ SHA-256 del APK:
 
 ## Como registrar un hallazgo
 
-Cada tester escribe sus resultados en su propio README, en la rama `main`:
+Cada participante escribe sus resultados en su propio README, en la rama `main`:
 
 - [Tabla de Juan Pablo](juan-pbs/README.md)
-- [Tabla de Gael](Gael/README.md)
+- [Tabla de Gael](GaelSilis/README.md)
 - [Tabla de Jhoana](Jhoa-ml/README.md)
+- [Tabla del docente](DSRG80/README.md)
 
 Por cada hallazgo, anota fecha, dispositivo y version de Android. En
 **Hallazgo**, explica los pasos, lo que esperabas y lo que sucedio. En

@@ -1,4 +1,4 @@
-# Registro de pruebas - Gael
+# Registro de pruebas - Docente (`DSRG80`)
 
 [Volver a las instrucciones](../README.md)
 
