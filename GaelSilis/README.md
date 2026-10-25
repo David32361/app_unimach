@@ -10,7 +10,7 @@ credenciales. Si no abriste un issue, deja `-` en esa columna.
 | Fecha | Dispositivo / Android | Hallazgo (pasos, esperado y observado) | Issue (opcional) | Estado |
 | :--- | :--- | :--- | :--- | :--- |
 | 24-10-2026 | POCO X4 Pro 5G - Android 11 | - | - | - |
-| 24-10-2026 | | | | |
+| 24-10-2026 | PCOC X4 Pro 5g - Android 11 | | | |
 | | | | | |
 | | | | | |
 | | | | | |
