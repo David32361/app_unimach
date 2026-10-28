@@ -1,4 +1,20 @@
-# Pruebas de UniMatch 0.1.0-beta.2
+# UniMatch · distribución y resultados de pruebas
+
+## Actualización beta.3 · 28 de octubre de 2026
+
+- Versión: **0.1.0-beta.3+6**.
+- [Descargar la nueva beta en GitHub Releases](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.3).
+- [Correcciones y comprobaciones](RESULTADOS_BETA3.md).
+- [Ramas, PRs y flujo de trabajo del código](https://github.com/David32361/unimach/blob/main/docs/FLUJO_GITHUB.md).
+
+Esta actualización requiere confirmar el correo mediante el enlace de Firebase.
+Abre el correo, confirma y pulsa **Continuar** para volver a la app. Si no se abre,
+pulsa **Abrir UniMatch** o vuelve a la app y selecciona **Ya confirmé mi correo**.
+Las cuentas con Google cuyo correo ya está verificado continúan normalmente.
+
+Los apartados siguientes conservan las instrucciones y resultados de la ronda
+**beta.2**, cerrada el 25 de octubre. El APK de la raíz es la beta.2 histórica;
+la versión nueva se descarga desde la Release beta.3, sin reemplazar la anterior.
 
 ## Periodo y participantes
 
