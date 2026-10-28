@@ -40,7 +40,18 @@ correo todavía no esté confirmado tras la publicación de las reglas.
 
 El código sigue ramas por responsabilidad: `feature/seguridad-correo`,
 `fix/interacciones-match`, `fix/diseno-ortografia` y `chore/flujo-trabajo`.
+La revisión final de lectura transaccional está en `fix/lectura-conversacion`
+([PR #9](https://github.com/David32361/unimach/pull/9)).
 Cada rama contiene commits y su PR; `main` conserva merges explícitos.
 En este repositorio, `docs/resultados-beta3` registra la distribución y la
 respuesta a los testers. Las versiones se publican con tags y Releases
 preliminares; no se declara estable una beta pendiente de validación en teléfono.
+
+## APK de esta entrega
+
+- Archivo en la Release: `UniMatch-0.1.0-beta.3.apk`.
+- Nombre de versión verificado: `0.1.0-beta.3`; código: `6`.
+- SHA-256: `fa7f3160ebef950c67f996afe4db5fe1a36ba62fcac1f9ea00b8d37586611296`.
+- Firma: misma clave de distribución persistente de beta.2.
+- La página de regreso a Android y la asociación del paquete están publicadas
+  en Firebase Hosting y responden HTTP 200.
