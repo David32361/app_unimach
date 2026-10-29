@@ -2,6 +2,22 @@
 
 <img src="branding/unimatch-icon.png" width="160" alt="Logo de UniMatch">
 
+## Actualización beta.5 · 29 de octubre de 2026
+
+- Versión: **0.1.0-beta.5+8**.
+- [Descargar APK beta.5](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.5).
+- Contacto para quejas, sugerencias y apelaciones: **unimatch7@gmail.com**.
+- Perfil → Eliminar mi cuenta muestra cómo solicitar el borrado al soporte.
+- [Instrucciones fuera de la app](https://unimatch-daniel-2026.web.app/account-deletion/).
+- Los avisos privados de sanción incluyen motivo y opción de apelar.
+- **El borrado automático aún no está activo**: el proyecto Firebase usa Spark.
+  La opción administrativa permanente permanece deshabilitada hasta activar el backend.
+- No se envían correos personalizados de baneo o eliminación con el remitente
+  de verificación de Firebase: ese servicio no permite mensajes arbitrarios.
+- [Disponibilidad y requisitos de activación](GESTION_CUENTAS.md).
+- [Notas y comprobaciones](ACTUALIZACION_BETA5.md).
+- Mantiene la firma de la beta.4; se puede instalar sobre la versión anterior.
+
 ## Actualización beta.4 · 29 de octubre de 2026
 
 - Versión: **0.1.0-beta.4+7**, con el nuevo logo de UniMatch.
@@ -26,7 +42,7 @@ Las cuentas con Google cuyo correo ya está verificado continúan normalmente.
 
 Los apartados siguientes conservan las instrucciones y resultados de la ronda
 **beta.2**, cerrada el 25 de octubre. El APK de la raíz es la beta.2 histórica;
-la versión actual se descarga desde la Release beta.4, sin reemplazar las anteriores.
+la versión actual se descarga desde la Release beta.5, sin reemplazar las anteriores.
 
 ## Periodo y participantes
 
