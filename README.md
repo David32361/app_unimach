@@ -1,9 +1,21 @@
 # UniMatch · distribución y resultados de pruebas
 
+<img src="branding/unimatch-icon.png" width="160" alt="Logo de UniMatch">
+
+## Actualización beta.4 · 29 de octubre de 2026
+
+- Versión: **0.1.0-beta.4+7**, con el nuevo logo de UniMatch.
+- [Descargar APK beta.4](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.4).
+- Icono Android normal, adaptativo y temático; logo en acceso, registro,
+  recuperación, confirmación de correo y panel administrativo.
+- Instalar sobre la beta.3: conserva la misma firma y aumenta el código de versión.
+- El original transparente está en [branding/unimatch-logo.png](branding/unimatch-logo.png).
+- [Notas y verificación de la actualización](ACTUALIZACION_BETA4.md).
+
 ## Actualización beta.3 · 28 de octubre de 2026
 
 - Versión: **0.1.0-beta.3+6**.
-- [Descargar la nueva beta en GitHub Releases](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.3).
+- [Descargar la beta.3 anterior en GitHub Releases](https://github.com/David32361/app_unimach/releases/tag/v0.1.0-beta.3).
 - [Correcciones y comprobaciones](RESULTADOS_BETA3.md).
 - [Ramas, PRs y flujo de trabajo del código](https://github.com/David32361/unimach/blob/main/docs/FLUJO_GITHUB.md).
 
@@ -14,7 +26,7 @@ Las cuentas con Google cuyo correo ya está verificado continúan normalmente.
 
 Los apartados siguientes conservan las instrucciones y resultados de la ronda
 **beta.2**, cerrada el 25 de octubre. El APK de la raíz es la beta.2 histórica;
-la versión nueva se descarga desde la Release beta.3, sin reemplazar la anterior.
+la versión actual se descarga desde la Release beta.4, sin reemplazar las anteriores.
 
 ## Periodo y participantes
 
