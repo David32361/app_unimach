@@ -29,3 +29,14 @@ mantiene los cambios de seguridad, verificación por enlace y matches de beta.3.
 
 La publicación sigue siendo una beta. El cambio visual no certifica el recorrido
 de verificación con un buzón real y Android que estaba pendiente en beta.3.
+
+## Verificación de la entrega
+
+- APK compilado: `versionName=0.1.0-beta.4`, `versionCode=7`.
+- Tamaño: **61 046 195 bytes**.
+- SHA-256: `0b933913baa55828e583e56c2ff34d30a49d45de072135c3d27d6dd9d00cfd36`.
+- Firma SHA-256: `A1:2A:1F:69:BB:42:5C:DA:E6:32:97:47:F4:58:65:F5:C0:FD:02:15:46:6F:A3:91:21:16:F5:7F:F8:2D:A8:C2`.
+- El PNG del logo se comprobó dentro del APK y coincide con el exportado.
+- 26 pruebas de usuario y una del panel aprobadas; análisis estático sin incidencias.
+- [CI aprobado](https://github.com/David32361/unimach/actions/runs/40887881608).
+- Panel web compilado y publicado en Firebase Hosting.
