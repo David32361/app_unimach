@@ -2,6 +2,20 @@
 
 <img src="branding/unimatch-icon.png" width="160" alt="Logo de UniMatch">
 
+## Entrega final 1.0.0 · 29 de octubre de 2026
+
+- Versión **1.0.0+9**, publicada como Release estable para cerrar esta entrega.
+- [Descargar el APK final](https://github.com/David32361/app_unimach/releases/tag/v1.0.0).
+  Abre **Assets → UniMatch-1.0.0.apk**.
+- [Tag del código entregado](https://github.com/David32361/unimach/tree/v1.0.0).
+- [Notas, alcance, pendientes y comprobaciones](ENTREGA_FINAL_1.0.0.md).
+- Misma firma de las betas; permite actualizar la instalación anterior.
+- Contacto para quejas, sugerencias y apelaciones: **unimatch7@gmail.com**.
+- El borrado automático y los correos personalizados de sanción siguen pendientes
+  de activar los servicios necesarios. La solicitud manual sí está disponible.
+
+Las betas y los resultados de testers se conservan como historial del proyecto.
+
 ## Actualización beta.5 · 29 de octubre de 2026
 
 - Versión: **0.1.0-beta.5+8**.
@@ -42,7 +56,7 @@ Las cuentas con Google cuyo correo ya está verificado continúan normalmente.
 
 Los apartados siguientes conservan las instrucciones y resultados de la ronda
 **beta.2**, cerrada el 25 de octubre. El APK de la raíz es la beta.2 histórica;
-la versión actual se descarga desde la Release beta.5, sin reemplazar las anteriores.
+la versión actual se descarga desde la Release 1.0.0, sin reemplazar las anteriores.
 
 ## Periodo y participantes
 
