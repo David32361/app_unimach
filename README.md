@@ -6,7 +6,8 @@
 
 - Versión **1.0.0+9**, publicada como Release estable para cerrar esta entrega.
 - [Descargar el APK final](https://github.com/David32361/app_unimach/releases/tag/v1.0.0).
-  Abre **Assets → UniMatch-1.0.0.apk**.
+  Abre **Assets** y elige el instalador **arm64-v8a**, **armeabi-v7a** o **x86_64**
+  según la arquitectura de tu dispositivo; la tabla está en las notas de entrega.
 - [Tag del código entregado](https://github.com/David32361/unimach/tree/v1.0.0).
 - [Notas, alcance, pendientes y comprobaciones](ENTREGA_FINAL_1.0.0.md).
 - Misma firma de las betas; permite actualizar la instalación anterior.

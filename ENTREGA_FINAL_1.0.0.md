@@ -48,7 +48,8 @@ Véanse [gestión de cuentas](GESTION_CUENTAS.md) y
 - [Release e instalador](https://github.com/David32361/app_unimach/releases/tag/v1.0.0).
 
 En cada repositorio abre **Releases → UniMatch 1.0.0**. Para el instalador, entra
-al repositorio `app_unimach`, abre **Assets** y descarga `UniMatch-1.0.0.apk`.
+al repositorio `app_unimach`, abre **Assets** y elige el APK para tu arquitectura: `UniMatch-1.0.0-arm64-v8a.apk`,
+`UniMatch-1.0.0-armeabi-v7a.apk` o `UniMatch-1.0.0-x86_64.apk`.
 Para el tag, abre el selector de ramas de la pestaña **Code**, cambia a **Tags**
 y selecciona `v1.0.0`. El tag también se ve en el encabezado de la Release.
 
@@ -59,12 +60,32 @@ de reglas y backend en emulador y CI aprobados. El cierre se valida de nuevo en
 el PR de versión. Antes de publicar el APK se comprueban versión, firma y SHA-256;
 el hash final se registra en las notas del repositorio de distribución.
 
-## Archivo publicado
+Los instaladores por arquitectura son más pequeños y evitan el corte de conexión
+al subir el APK universal. Todos llevan versión 1.0.0, código 9 y la misma firma.
+ARM64 corresponde a Android ARM de 64 bits; armeabi-v7a a ARM de 32 bits;
+x86_64 a Android para esa arquitectura, como algunos emuladores.
 
-- Nombre: `UniMatch-1.0.0.apk`.
-- Paquete: `com.unimatch.unimatch_user`.
-- Versión Android: `1.0.0`; código de versión: `9`.
-- Firma persistente compatible con las betas anteriores.
-- SHA-256: `70c93c8f57516d829854b3467c5a3c4894263610ca4554b847d0db16c88c58b1`.
+## Archivos publicados
 
-Firma SHA-256 del certificado: `a12a1f69bb425cdae6329747f45865f5c0fd0215466fa3912116f57ff82da8c2`.
+Todos conservan el paquete `com.unimatch.unimatch_user`, versión 1.0.0 y código 9.
+Elige la arquitectura que admita tu dispositivo. Se instalan sobre la beta previa
+cuando el dispositivo admite esa misma arquitectura.
+
+| Arquitectura | Archivo | Tamaño |
+| --- | --- | --- |
+| arm64-v8a | `UniMatch-1.0.0-arm64-v8a.apk` | 24.7 MiB |
+| armeabi-v7a | `UniMatch-1.0.0-armeabi-v7a.apk` | 22.4 MiB |
+| x86_64 | `UniMatch-1.0.0-x86_64.apk` | 26.2 MiB |
+
+SHA-256 de cada instalador:
+
+- `UniMatch-1.0.0-arm64-v8a.apk`: `b2ef7b6d726db75701ea7b176e77ed17fb91a965fa857818d7ad4fd19d44f065`.
+- `UniMatch-1.0.0-armeabi-v7a.apk`: `3f26f67a35cf967bd6393b317c34ed3841e229390164ef0e4a40c8f7435e7f4d`.
+- `UniMatch-1.0.0-x86_64.apk`: `fcdf6a43ea29bf59905a66071be0808bfcbd5eb96cca2245af3c673465a63ee1`.
+
+Firma SHA-256 del certificado compartido: `a12a1f69bb425cdae6329747f45865f5c0fd0215466fa3912116f57ff82da8c2`.
+
+Se comprobaron versión, firma y alineación con Android SDK. Todos los archivos
+conservados de cada variante coinciden byte por byte con el APK universal verificado,
+salvo los metadatos de firma regenerados; solo se excluyen las bibliotecas de otras
+arquitecturas. La división evita los cortes de conexión del archivo universal grande.
